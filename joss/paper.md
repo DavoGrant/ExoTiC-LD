@@ -57,25 +57,24 @@ stellar model grids have been stored as tree structures, enabling an efficient
 search for good matches and helpful warnings to the user.
 
 `ExoTiC-LD` thus far has predominantly been utilised in the study of exoplanet 
-atmospheres, helping to facilitate the study of Jupiter-like 
-[e.g.; @Alderson:2023; @Grant:2023], Neptune-like [e.g.; @Roy:2023; @Radica:2024], 
-and Earth-like exoplanets [e.g.; @Moran:2023; @Kirk:2024]. It has 
+atmospheres, helping to facilitate the study of Jupiter-like
+[e.g., @Alderson:2023; @Grant:2023], Neptune-like [e.g., @Roy:2023; @Radica:2024], 
+and Earth-like exoplanets [e.g., @Moran:2023; @Kirk:2024]. It has 
 also been incorporated into the popular open-source JWST data reduction and 
 analysis pipeline, called `Eureka!` [@Bell:2022].
 
 Currently, the stellar models supported are phoenix [@Husser:2013], kurucz 
 [@Kurucz:1993], stagger [@Magic:2015], and MPS-ATLAS [@Kostogryz:2022; @Kostogryz:2023]. 
 There are also options to provide custom data if the user has their own stellar 
-models or instrument data. Similar codes are available, such as `JKTLD` 
-[@Southworth:2015], `LDTk` [@Parviainen:2015], `ExoTETHyS` [@Morello:2020], 
-and `exoCTK` [@Bourque:2021].
+models or instrument data. Other available codes include those referenced in 
+@Southworth:2015, @Parviainen:2015, @Morello:2020, and @Bourque:2021.
 
 # Acknowledgements
 
 We acknowledge contributions from Natasha Batalha, Matthew Hill, and Iva Laginja, 
 as well as testing by Taylor Bell, Lili Alderson, Daniel Valentine, Charlotte 
-Fairman, and Katy Chubb. D.G. was funded by UK Research and Innovation (UKRI) 
-under the UK government’s Horizon Europe funding guarantee as part of an ERC 
-Starter Grant [grant number EP/Y006313/1].
+Fairman, and Katy Chubb. D.G. and H.R.W was funded by UK Research and Innovation 
+(UKRI) under the UK government’s Horizon Europe funding guarantee as part of an 
+ERC Starter Grant [grant number EP/Y006313/1].
 
 # References
